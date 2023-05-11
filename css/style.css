@@ -63,6 +63,7 @@ body {
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 35px;
+  transform-origin: center center;
   animation: moveInLeft 1s ease-out;
 
   /* animation-name: moveInLeft;
