@@ -66,10 +66,6 @@ body {
   letter-spacing: 35px;
   transform-origin: center center;
   animation: moveInLeft 1s ease-out;
-
-  /* animation-name: moveInLeft;
-  animation-duration: 1s;
-  animation-timing-function: ease-out; */
 }
 
 .heading-primary--sub {
@@ -112,6 +108,18 @@ body {
   }
 }
 
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
@@ -149,13 +157,21 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
+  transition: all 0.4s;
 }
 
 .btn-white::after {
   background-color: #fff;
 }
 
+/* when the button is hovered then apply some styles to the after pseudo element */
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  /* applies the 0 percent part of the anmation before the animation starts with animation-fill-mode */
+  animation-fill-mode: backwards;
 }
