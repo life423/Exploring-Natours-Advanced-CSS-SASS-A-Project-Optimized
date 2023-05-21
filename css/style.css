@@ -139,7 +139,7 @@ body {
   color: #777;
 }
 
-.btn::after{
+.btn::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -151,11 +151,11 @@ body {
   z-index: -1;
 }
 
-.btn-white::after{
+.btn-white::after {
   background-color: #fff;
 }
 
-.btn:hover::after{
+.btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
