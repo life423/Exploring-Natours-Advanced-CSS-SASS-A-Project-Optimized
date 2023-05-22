@@ -163,6 +163,7 @@ body {
 .btn-white::after {
   background-color: #fff;
 }
+
 /* when the button is hovered then apply some styles to the after pseudo element */
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
