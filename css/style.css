@@ -170,7 +170,6 @@ body {
 }
 
 .btn-animated {
-  animation: moveInBottom 0.5s ease-out 0.75s;
-  /* applies the 0 percent part of the animation before the animation starts with animation-fill-mode */
+  animation: moveInBottom 0.5s ease-out 0.75s;  
   animation-fill-mode: backwards;
 }
