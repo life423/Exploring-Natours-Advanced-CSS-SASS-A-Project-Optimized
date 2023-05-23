@@ -11,12 +11,12 @@
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px $btn-shadow-color;
 }
 
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px $btn-shadow-color;
   border-radius: 100px;
 }
 
@@ -42,7 +42,6 @@
   background-color: #fff;
 }
 
-/* when the button is hovered then apply some styles to the after pseudo element */
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
@@ -50,6 +49,5 @@
 
 .btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
-  /* applies the 0 percent part of the animation before the animation starts with animation-fill-mode */
-  animation-fill-mode: backwards;
+  
 }
