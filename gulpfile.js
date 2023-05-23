@@ -16,5 +16,5 @@ gulp.task('styles', function stylesTask(done) {
 
 // Define the 'watch' task
 gulp.task('watch', function() {
-    gulp.watch('src/**/*.scss', gulp.series('styles'));
+    gulp.watch('sass/**/*.scss', gulp.series('styles'));
 });
