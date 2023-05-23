@@ -1,14 +1,16 @@
 {
   "name": "natours-chat",
   "version": "1.0.0",
-  "description": "",
+  "description": "A learning-focused project by web developer Andrew Clark, designed to explore and master advanced concepts in CSS and Sass beyond typical tutorials. Intended as an open resource for anyone seeking to enhance their web development skills.",
   "main": "script.js",
   "scripts": {
-    "sass": "sass --watch sass/main.scss:css/style.css"
+    "styles": "gulp styles",
+    "watch": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["CSS", "Sass", "learning", "tutorial", "web development"],
+  "author": "Andrew Clark",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
