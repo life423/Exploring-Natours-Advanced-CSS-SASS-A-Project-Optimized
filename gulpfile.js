@@ -16,5 +16,9 @@ gulp.task('styles', function stylesTask(done) {
 
 // Define the 'watch' task
 gulp.task('watch', function() {
+<<<<<<< HEAD
     gulp.watch('./sass/main.scss', gulp.series('styles'));
+=======
+    gulp.watch('src/**/*.scss', gulp.series('styles'));
+>>>>>>> 4e6bbbb... gulp is working a little, I think
 });
