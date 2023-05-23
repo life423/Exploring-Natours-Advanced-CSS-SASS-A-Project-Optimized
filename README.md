@@ -23,3 +23,9 @@ With passion and dedication, I am proud to present my enhanced rendition of Jona
 ## 🤝 Ready to Make an Impact: Collaboration for Success
 
 I am thrilled at the opportunity to discuss how my expertise and unique approach can contribute to your organization's success. Together, we can bring this project to life, captivating audiences, and making a lasting impact in the ever-evolving world of web development. Let us embark on this exciting journey and create something truly remarkable.
+
+
+learning about task runners
+gulp 
+gulp to run autoprefixer and sass
+leraning gitkraken so leraning git better and using Ai to generate the commit messages
