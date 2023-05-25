@@ -1,23 +1,31 @@
 .heading-primary {
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 60px;
 
-    &--main {
-      display: block;
-      font-size: 60px;
-      font-weight: 400;
-      letter-spacing: 35px;
-      transform-origin: center center;
-      animation: moveInLeft 1s ease-out;
-    }
-
-    &--sub {
-      display: block;
-      font-size: 20px;
-      font-weight: 700;
-      letter-spacing: 17.4px;
-      animation: moveInRight 1s ease-out;
-    }
+  &--main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+    transform-origin: center center;
+    animation: moveInLeft 1s ease-out;
   }
-  
+
+  &--sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+    animation: moveInRight 1s ease-out;
+  }
+}
+
+body {
+  font-family: $default-font-family;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-grey-dark;
+  padding: 3rem;
+  box-sizing: border-box;
+}
