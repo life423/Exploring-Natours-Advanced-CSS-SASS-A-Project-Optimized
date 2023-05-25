@@ -49,8 +49,7 @@ body {
   padding: 30px;
 }
 
-.btn:link,
-.btn:visited {
+.btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px 40px;
@@ -59,23 +58,19 @@ body {
   transition: all 0.2s;
   position: relative;
 }
-
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
 .btn:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 100px;
 }
-
 .btn--white {
-  background-color: #FFF;
+  background-color: #fff;
   color: #777;
 }
-
 .btn::after {
   content: "";
   display: inline-block;
@@ -88,16 +83,13 @@ body {
   z-index: -1;
   transition: all 0.4s;
 }
-
 .btn--white::after {
-  background-color: #FFF;
+  background-color: #fff;
 }
-
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
-
 .btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
 }
