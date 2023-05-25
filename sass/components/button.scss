@@ -11,18 +11,18 @@
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px $btn-shadow-color;
+  box-shadow: 0 10px 20px rgba($color-black, .2);
 }
 
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0 5px 10px $btn-shadow-color;
+  box-shadow: 0 5px 10px rgba($color-black, .2);
   border-radius: 100px;
 }
 
 .btn--white {
-  background-color: #fff;
-  color: #777;
+  background-color: $color-white;
+  color: $color-grey-dark;
 }
 
 .btn::after {
@@ -39,7 +39,7 @@
 }
 
 .btn--white::after {
-  background-color: #fff;
+  background-color: $color-white;
 }
 
 .btn:hover::after {

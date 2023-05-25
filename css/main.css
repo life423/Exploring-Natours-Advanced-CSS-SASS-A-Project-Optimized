@@ -45,7 +45,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #777;
+  color: #7ed56f;
   padding: 30px;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .btn--white {
-  background-color: #fff;
+  background-color: #FFF;
   color: #777;
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 .btn--white::after {
-  background-color: #fff;
+  background-color: #FFF;
 }
 
 .btn:hover::after {
