@@ -1,0 +1,6 @@
+.row{
+    max-width: $grid-width;
+    background-color: #eee;
+    @include center-horizontal;
+    margin-bottom: $gutter-vertical;
+}

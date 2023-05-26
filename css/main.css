@@ -120,6 +120,14 @@ body {
   animation: moveInBottom 0.5s ease-out 0.75s;
 }
 
+.row {
+  max-width: 114rem;
+  background-color: #eee;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8rem;
+}
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
