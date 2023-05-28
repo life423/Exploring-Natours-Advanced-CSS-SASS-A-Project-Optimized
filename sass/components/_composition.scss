@@ -1,37 +1,33 @@
-// Define the styles for the composition element
 .composition {
-  position: relative; // Set the position to relative so that the photo elements can be positioned absolutely within it
+  position: relative;
 
-  // Define the styles for the photo element within the composition element
   &__photo {
-    width: 55%; // Set the width of the photo element to 55% of its container for responsive design
-    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4); // Add a box-shadow to the photo element
-    border-radius: 3px; // Add a border-radius to the photo element
-    position: absolute; // Set the position to absolute so that the photo element can be positioned within the composition element
+    //width of images in percentage of the container for responsive design
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+    border-radius: 3px;
+    position: absolute;
 
-    // Define the styles for the photo element with the p1 modifier class
     &--p1 {
-      left: 0; // Position the photo element to the left of the composition element
-      top: -2rem; // Position the photo element 2rem above the top of the composition element
+      left: 0;
+      top: -2rem;
     }
 
-    // Define the styles for the photo element with the p2 modifier class
     &--p2 {
-      right: 0; // Position the photo element to the right of the composition element
-      top: 2rem; // Position the photo element 2rem below the top of the composition element
+      right: 0;
+      top: 2rem;
     }
 
-    // Define the styles for the photo element with the p3 modifier class
     &--p3 {
-      left: 20%; // Position the photo element 20% from the left of the composition element
-      top: 10rem; // Position the photo element 10rem below the top of the composition element
+      left: 20%;
+      top: 10rem;
     }
 
-    // Define the styles for the photo element when the user hovers over it
     &:hover {
-      transform: scale(1.05); // Scale the photo element up by 5%
-      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5); // Increase the box-shadow to give the impression that the photo element is closer to the user
-      z-index: 10; // Increase the z-index to bring the photo element to the front
+      transform: scale(1.05);
+      //to give the impression the image is closer to the user the shadow is increased and darker
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+      z-index: 10;
     }
   }
 }
