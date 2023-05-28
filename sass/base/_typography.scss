@@ -14,13 +14,13 @@ body {
 
   &--main {
     display: block;
-    @include font-properties(60px, 400, 35px);
+    @include font-properties(6rem, 400, 3.5rem);
     @include animation(moveInLeft, 1s, ease-out);
   }
 
   &--sub {
     display: block;
-    @include font-properties(20px, 700, 17.4px);
+    @include font-properties(2rem, 700, 1.74rem);
     @include animation(moveInRight, 1s, ease-out);
   }
 }
