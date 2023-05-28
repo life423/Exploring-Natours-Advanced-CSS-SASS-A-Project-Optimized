@@ -1,7 +1,10 @@
 import gulp from 'gulp';
-import sass from 'gulp-sass';
+import sassCompiler from 'sass';
+import gulpSass from 'gulp-sass';
 import autoprefixer from 'gulp-autoprefixer';
-import imagemin from 'gulp-imagemin'
+import imagemin from 'gulp-imagemin';
+
+const sass = gulpSass(sassCompiler);
 
 gulp.task('styles', function stylesTask(done) {
     gulp.src('./sass/main.scss')
