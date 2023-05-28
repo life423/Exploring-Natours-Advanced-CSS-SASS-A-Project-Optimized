@@ -111,8 +111,12 @@ body {
   text-align: center !important;
 }
 
-.u-margin-bottom-8 {
+.u-margin-bottom-big {
   margin-bottom: 8rem !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem !important;
 }
 
 .btn, .btn:link, .btn:visited {
