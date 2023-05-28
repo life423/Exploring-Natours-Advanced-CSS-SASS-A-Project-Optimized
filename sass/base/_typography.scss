@@ -41,4 +41,12 @@ body {
   text-transform: uppercase;
   display: inline-block;
   background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all .2s;
+
+  &:hover{
+    transform: skewY(-1.2deg) skewX(2deg) scale(1.05);
+  }
 }

@@ -82,6 +82,14 @@ body {
   text-transform: uppercase;
   display: inline-block;
   background-image: linear-gradient(to right, #55c57a, #28b485);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+}
+.heading-secondary:hover {
+  transform: skewY(-1.2deg) skewX(2deg) scale(1.05);
 }
 
 .btn, .btn:link, .btn:visited {
