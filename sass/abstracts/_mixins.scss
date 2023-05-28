@@ -36,8 +36,7 @@
   .col-#{$col}-of-#{$total-col} {
     width: calc(#{$col} * ((100% - #{($total-col - 1) * $gutter-horizontal}) / #{$total-col}) + #{($col - 1) * $gutter-horizontal});
     float: left;
-    background-color: orangered;
-
+    
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
     }

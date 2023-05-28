@@ -90,6 +90,11 @@ body {
 }
 .heading-secondary:hover {
   transform: skewY(-1.2deg) skewX(2deg) scale(1.05);
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.u-center-text {
+  text-align: center !important;
 }
 
 .btn, .btn:link, .btn:visited {
@@ -140,7 +145,6 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: #eee;
   margin-left: auto;
   margin-right: auto;
 }
@@ -155,7 +159,6 @@ body {
 .row .col-1-of-2 {
   width: calc(1 * ((100% - 6rem) / 2) + 0rem);
   float: left;
-  background-color: orangered;
 }
 .row .col-1-of-2:not(:last-child) {
   margin-right: 6rem;
@@ -163,7 +166,6 @@ body {
 .row .col-1-of-3 {
   width: calc(1 * ((100% - 12rem) / 3) + 0rem);
   float: left;
-  background-color: orangered;
 }
 .row .col-1-of-3:not(:last-child) {
   margin-right: 6rem;
@@ -171,7 +173,6 @@ body {
 .row .col-2-of-3 {
   width: calc(2 * ((100% - 12rem) / 3) + 6rem);
   float: left;
-  background-color: orangered;
 }
 .row .col-2-of-3:not(:last-child) {
   margin-right: 6rem;
@@ -179,7 +180,6 @@ body {
 .row .col-1-of-4 {
   width: calc(1 * ((100% - 18rem) / 4) + 0rem);
   float: left;
-  background-color: orangered;
 }
 .row .col-1-of-4:not(:last-child) {
   margin-right: 6rem;
@@ -187,7 +187,6 @@ body {
 .row .col-2-of-4 {
   width: calc(2 * ((100% - 18rem) / 4) + 6rem);
   float: left;
-  background-color: orangered;
 }
 .row .col-2-of-4:not(:last-child) {
   margin-right: 6rem;
@@ -195,7 +194,6 @@ body {
 .row .col-3-of-4 {
   width: calc(3 * ((100% - 18rem) / 4) + 12rem);
   float: left;
-  background-color: orangered;
 }
 .row .col-3-of-4:not(:last-child) {
   margin-right: 6rem;
