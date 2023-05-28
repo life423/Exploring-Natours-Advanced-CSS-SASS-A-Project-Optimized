@@ -54,3 +54,9 @@
   font-weight: $weight;
   letter-spacing: $spacing;
 }
+
+@mixin reset-button{
+  text-decoration: none;  
+  display: inline-block;
+  font-size: $default-font-size;
+}
