@@ -4,8 +4,8 @@
   &:visited {
     text-transform: uppercase;
     @include reset-button;
-    padding: 15px 40px;
-    border-radius: 100px;
+    padding: 1.5rem 4rem;
+    border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
   }
@@ -56,16 +56,22 @@
 .btn-text {
   &:link,
   &:visited {
-    color: $color-primary;
     @include reset-button;
+    color: $color-primary;
     border-bottom: 1px solid $color-primary;
     padding: 3px;
+    transition: all 0.2s;
   }
 
   &:hover {
-    
+    background-color: $color-primary;
+    color: $color-white;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+    transform: translateY(-2px);
   }
 
   &:active {
+    box-shadow: 0 .5rem 1rem rgba($color-black, 0.15);
+    transform: translateY(0);
   }
 }
