@@ -60,18 +60,27 @@ body {
 }
 .heading-primary--main {
   display: block;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 400;
-  letter-spacing: 35px;
+  letter-spacing: 3.5rem;
   transform-origin: center center;
   animation: moveInLeft 1s ease-out;
 }
 .heading-primary--sub {
   display: block;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
-  letter-spacing: 17.4px;
+  letter-spacing: 1.74rem;
+  transform-origin: center center;
   animation: moveInRight 1s ease-out;
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #55c57a, #28b485);
 }
 
 .btn, .btn:link, .btn:visited {
@@ -206,4 +215,10 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.section-about {
+  background-color: #f7f7f7;
+  padding: 25rem 0;
+  margin-top: -20vh;
 }
