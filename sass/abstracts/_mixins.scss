@@ -44,5 +44,14 @@
   }
 }
 
+@mixin animation($name, $duration, $timing) {
+  transform-origin: center center;
+  animation: $name $duration $timing;
+}
 
+@mixin font-properties($size, $weight, $spacing) {
+  font-size: $size;
+  font-weight: $weight;
+  letter-spacing: $spacing;
+}
 
