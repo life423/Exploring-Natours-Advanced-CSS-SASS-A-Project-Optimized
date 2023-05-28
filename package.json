@@ -8,12 +8,20 @@
     "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["CSS", "Sass", "learning", "tutorial", "web development"],
+  "type": "module",
+  "keywords": [
+    "CSS",
+    "Sass",
+    "learning",
+    "tutorial",
+    "web development"
+  ],
   "author": "Andrew Clark",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
+    "gulp-imagemin": "^8.0.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.62.1"
   }

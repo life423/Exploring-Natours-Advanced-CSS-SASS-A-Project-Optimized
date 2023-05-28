@@ -1,7 +1,7 @@
-const gulp = require('gulp');
-const sass = require('gulp-sass')(require('sass'));
-const autoprefixer = require('gulp-autoprefixer');
-
+import gulp from 'gulp';
+import sass from 'gulp-sass';
+import autoprefixer from 'gulp-autoprefixer';
+import imagemin from 'gulp-imagemin'
 
 gulp.task('styles', function stylesTask(done) {
     gulp.src('./sass/main.scss')
@@ -14,7 +14,15 @@ gulp.task('styles', function stylesTask(done) {
     done();
 });
 
+gulp.task('images', function(done) {
+    gulp.src('./img/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('./img'));
+
+    done();
+});
 
 gulp.task('watch', function() {
     gulp.watch('sass/**/*.scss', gulp.series('styles'));
+    gulp.watch('img/*', gulp.series('images'));
 });
