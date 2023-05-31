@@ -238,6 +238,10 @@ body {
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 }
+.feature-box__icon {
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+}
 .row {
   max-width: 114rem;
   margin-left: auto;
