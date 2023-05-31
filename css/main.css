@@ -192,7 +192,9 @@ body {
 .composition {
   position: relative;
 }
+
 .composition__photo {
+  /* width of images in percentage of the container for responsive design */
   width: 55%;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -200,24 +202,30 @@ body {
   transition: all 0.2s;
   outline-offset: 2rem;
 }
+
 .composition__photo--p1 {
   left: 0;
   top: -2rem;
 }
+
 .composition__photo--p2 {
   right: 0;
   top: 2rem;
 }
+
 .composition__photo--p3 {
   left: 20%;
   top: 10rem;
 }
+
 .composition__photo:hover {
   outline: 1.5rem solid #7ed56f;
-  transform: scale(1.05) translateY();
+  transform: scale(1.05) translateY(-0.5rem);
+  /* to give the impression the image is closer to the user, the shadow is increased and darker */
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 20;
 }
+
 .composition:hover .composition__photo:not(:hover) {
   transform: scale(0.95);
 }
@@ -280,7 +288,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -307,4 +315,10 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0;
   margin-top: -20vh;
+}
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-size: cover;
 }
