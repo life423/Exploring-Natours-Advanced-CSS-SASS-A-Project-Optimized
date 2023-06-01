@@ -40,9 +40,7 @@ body {
 
   text-transform: uppercase;
   display: inline-block;
-  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-  background-clip: text;
-  color: transparent;
+ @include text-gradient($color-primary-light, $color-primary-dark);
   letter-spacing: 2px;
   transition: all .2s;
 

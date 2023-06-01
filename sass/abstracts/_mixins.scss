@@ -1,11 +1,11 @@
 @mixin reset-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 @mixin border($color, $width) {
-    border: $color $width solid;
+  border: $color $width solid;
 }
 
 @mixin center-block($vertical: false) {
@@ -23,10 +23,9 @@
   margin-right: auto;
 }
 
-
 @mixin clearfix {
   &::after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
   }
@@ -34,15 +33,18 @@
 
 @mixin col($col, $total-col) {
   .col-#{$col}-of-#{$total-col} {
-    width: calc(#{$col} * ((100% - #{($total-col - 1) * $gutter-horizontal}) / #{$total-col}) + #{($col - 1) * $gutter-horizontal});
+    width: calc(
+      #{$col} * (
+          (100% - #{($total-col - 1) * $gutter-horizontal}) / #{$total-col}
+        ) + #{($col - 1) * $gutter-horizontal}
+    );
     float: left;
-    
+
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
     }
   }
 }
-
 
 @mixin animation($name, $duration, $timing) {
   transform-origin: center center;
@@ -55,8 +57,18 @@
   letter-spacing: $spacing;
 }
 
-@mixin reset-button{
-  text-decoration: none;  
+@mixin reset-button {
+  text-decoration: none;
   display: inline-block;
   font-size: $default-font-size;
+}
+
+@mixin text-gradient($color-primary-light, $color-primary-dark) {
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  background-clip: text;
+  color: transparent;
 }
