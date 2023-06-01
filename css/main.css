@@ -241,6 +241,10 @@ body {
 .feature-box__icon {
   font-size: 6rem;
   margin-bottom: 0.5rem;
+  background-image: linear-gradient(to right, #55c57a, #28b485);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .row {
   max-width: 114rem;
