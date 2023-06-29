@@ -72,3 +72,11 @@
   background-clip: text;
   color: transparent;
 }
+
+
+@mixin gradient($direction, $start-color, $end-color, $opacity: 1, $image: none) {
+  background-color: $start-color;
+  background-image: linear-gradient(to right, rgba($start-color, $opacity), rgba($end-color, $opacity));
+}
+
+@include gradient(to right bottom, $color-primary-light, $color-primary-dark, 0.8, url(../img/nat-4.jpg));
