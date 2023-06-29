@@ -12,6 +12,7 @@
       rgba($color-primary-dark, 0.8)
     ),
     url(../img/nat-4.jpg);
+    @include background-image-mixin($color-primary-light, $color-primary-dark, '../img/nat-4.jpg');
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem;

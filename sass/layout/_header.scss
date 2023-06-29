@@ -1,6 +1,6 @@
 .header {
   height: 95vh;
-  @include background-image-mixin($color-primary-light, $color-primary-dark, '../img/nat-4.jpg');
+  @include background-image-mixin($color-primary-light, $color-primary-dark, '../img/hero.jpg');
   background-size: cover;
   background-position: top;
   position: relative;
