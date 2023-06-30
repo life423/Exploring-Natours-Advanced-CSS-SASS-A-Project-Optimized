@@ -189,6 +189,10 @@ body {
   transform: translateY(0);
 }
 
+.card {
+  background-color: orangered;
+}
+
 .composition {
   position: relative;
 }
