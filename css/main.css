@@ -195,6 +195,8 @@ body {
 }
 .card__side {
   background-color: orangered;
+  color: #fff;
+  font-family: px-to-rem(20px);
   height: 50rem;
   transition: all 0.8s;
 }
