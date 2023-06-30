@@ -192,6 +192,7 @@ body {
 .card {
   perspective: px-to-rem(1500);
   text-align: left;
+  text-transform: uppercase;
 }
 .card__side {
   background-color: orangered;
