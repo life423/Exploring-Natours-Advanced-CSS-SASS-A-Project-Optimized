@@ -190,12 +190,15 @@ body {
 }
 
 .card {
+  perspective: px-to-rem(1500);
+  text-align: left;
+}
+.card__side {
   background-color: orangered;
   height: 50rem;
   transition: all 0.8s;
-  text-align: left;
 }
-.card:hover {
+.card:hover .card__side {
   transform: rotateY(180deg);
 }
 
