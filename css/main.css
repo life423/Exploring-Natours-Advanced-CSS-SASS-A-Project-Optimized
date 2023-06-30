@@ -201,8 +201,18 @@ body {
   height: 50rem;
   transition: all 0.8s;
 }
-.card:hover .card__side {
+.card__side--front {
+  background-color: orangered;
+}
+.card__side--back {
+  background-color: green;
   transform: rotateY(180deg);
+}
+.card:hover .card__side--front {
+  transform: rotateY(180deg);
+}
+.card:hover .card__side--back {
+  transform: rotateY(0deg);
 }
 
 .composition {
