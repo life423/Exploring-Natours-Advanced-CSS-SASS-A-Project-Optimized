@@ -193,6 +193,7 @@ body {
   perspective: px-to-rem(1500);
   text-align: left;
   text-transform: uppercase;
+  position: relative;
 }
 .card__side {
   background-color: orangered;
@@ -200,6 +201,11 @@ body {
   font-family: px-to-rem(20px);
   height: 50rem;
   transition: all 0.8s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
 }
 .card__side--front {
   background-color: orangered;
