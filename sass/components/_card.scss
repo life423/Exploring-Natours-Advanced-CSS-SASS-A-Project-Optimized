@@ -1,5 +1,5 @@
 .card {
-  perspective: px-to-rem($perspective-property);
+  perspective: $perspective-property;
   text-align: left;
   text-transform: uppercase;
   position: relative;
@@ -8,7 +8,7 @@
   &__side{
     background-color: orangered;
     color: $color-white;
-    font-family: px-to-rem(20px);
+    font-family: 2rem;
     height: 50rem;
     transition: all 0.8s;
     position: absolute;
