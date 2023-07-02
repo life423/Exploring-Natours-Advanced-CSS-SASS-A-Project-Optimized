@@ -127,7 +127,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  font-size: 62.5%;
+  font-size: 1.6rem;
   padding: 1.5rem 4rem;
   border-radius: 10rem;
   transition: all 0.2s;
@@ -173,7 +173,7 @@ body {
 .btn-text:link, .btn-text:visited {
   text-decoration: none;
   display: inline-block;
-  font-size: 62.5%;
+  font-size: 1.6rem;
   color: #7ed56f;
   border-bottom: 0.1rem solid #7ed56f;
   padding: 0.3rem;
