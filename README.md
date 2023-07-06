@@ -7,6 +7,7 @@ Welcome to 'Exploring Natours', a project that pushes the boundaries of CSS and 
 - CSS3
 - Sass
 - NPM Scripts
+- Gulp
 
 ## Key Features 🌟
 - Responsive design
