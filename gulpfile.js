@@ -27,5 +27,4 @@ gulp.task("images", function (done) {
 
 gulp.task("watch", function () {
   gulp.watch("sass/**/*.scss", gulp.series("styles"));
-  
 });
