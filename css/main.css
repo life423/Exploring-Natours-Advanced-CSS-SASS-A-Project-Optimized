@@ -190,38 +190,6 @@ body {
   transform: translateY(0);
 }
 
-.card {
-  perspective: 1500;
-  text-align: left;
-  text-transform: uppercase;
-  position: relative;
-}
-.card__side {
-  background-color: orangered;
-  color: #fff;
-  font-family: 2rem;
-  height: 50rem;
-  transition: all 0.8s;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  backface-visibility: hidden;
-}
-.card__side--front {
-  background-color: orangered;
-}
-.card__side--back {
-  background-color: green;
-  transform: rotateY(180deg);
-}
-.card:hover .card__side--front {
-  transform: rotateY(180deg);
-}
-.card:hover .card__side--back {
-  transform: rotateY(0deg);
-}
-
 .composition {
   position: relative;
 }
