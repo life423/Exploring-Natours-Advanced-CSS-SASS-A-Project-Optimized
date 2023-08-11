@@ -1,11 +1,16 @@
-.card{
+.card {
   perspective: $perspective-distance;
 
-  background-color: orangered;
-  height: 50rem;
-  transition: all .8s;
-  text-align: left;
-  &:hover{
-    transform: rotateY(180deg)
+  &__side {
+    background-color: orangered;
+    color:white;
+    font-size: 2rem;
+    height: 50rem;
+    transition: all 0.8s;
+    text-align: left;
+  }
+
+  &:hover &__side {
+    transform: rotateY(180deg);
   }
 }
