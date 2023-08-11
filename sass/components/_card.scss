@@ -1,0 +1,11 @@
+.card{
+  perspective: $perspective-distance;
+
+  background-color: orangered;
+  height: 50rem;
+  transition: all .8s;
+  text-align: left;
+  &:hover{
+    transform: rotateY(180deg)
+  }
+}

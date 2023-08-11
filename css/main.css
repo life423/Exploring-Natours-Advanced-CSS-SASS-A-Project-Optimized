@@ -190,6 +190,17 @@ body {
   transform: translateY(0);
 }
 
+.card {
+  perspective: 150rem;
+  background-color: orangered;
+  height: 50rem;
+  transition: all 0.8s;
+  text-align: left;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+
 .composition {
   position: relative;
 }
